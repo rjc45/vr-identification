@@ -1,0 +1,26 @@
+HeadPos_x, HeadPos_y, HeadPos_z
+LeftHandPos_x, LeftHandPos_y, LeftHandPos_z,
+RightHandPos_x, RightHandPos_y, RightHandPos_z,
+
+Min, Max, Mean, Std, MAD, sum - 9 x 6 = 54
+
+avg_velocity, avg_speed - 9 x 2 = 18
+
+
+distance between hands/head - head is origin, z is forward
+
+
+HeadRot_w, HeadRot_x, HeadRot_y, HeadRot_z,
+LeftHandRot_w, LeftHandRot_x, LeftHandRot_y, LeftHandRot_z,
+RightHandRot_w, RightHandRot_x, RightHandRot_y, RightHandRot_z
+
+Min, Max, Mean, Std, MAD, sum - 12 x 6 = 72
+
+euler angles from Quarternion - Unity convention
+
+calculate forward/back/left/right tilt motion
+
+
+2 seconds overlap of 50%
+
+1s, 3s, 10s altogether
